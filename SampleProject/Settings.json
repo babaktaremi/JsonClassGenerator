@@ -1,0 +1,18 @@
+{
+  "JwtSettings": {
+    "SecretKey": "secretKey",
+    "Encryptkey": "EncryptKey",
+    "Issuer": "MyWebsite",
+    "Audience": "MyWebsite",
+    "NotBeforeMinutes": "0",
+    "ExpirationMinutes": "100"
+  },
+  "IdentitySettings": {
+    "PasswordRequireDigit": "true",
+    "PasswordRequiredLength": "6",
+    "PasswordRequireNonAlphanumic": "false",
+    "PasswordRequireUppercase": "false",
+    "PasswordRequireLowercase": "false",
+    "RequireUniqueEmail": "true"
+  }
+}
